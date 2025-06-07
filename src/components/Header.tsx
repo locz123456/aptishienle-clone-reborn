@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -15,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-12 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b shadow-sm">
+    <header className="fixed top-12 left-0 right-0 z-[9999] bg-background/95 backdrop-blur-md border-b shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">

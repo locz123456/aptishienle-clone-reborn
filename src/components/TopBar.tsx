@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Mail, Phone } from 'lucide-react';
 
 const TopBar = () => {
   return (
-    <div className="bg-primary text-primary-foreground py-2 px-4">
+    <div className="fixed top-0 left-0 right-0 z-[9998] bg-primary text-primary-foreground py-2 px-4">
       <div className="max-w-6xl mx-auto flex justify-between items-center text-sm">
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-2">
