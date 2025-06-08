@@ -1,25 +1,26 @@
 
 import React from 'react';
-import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
-import SkillsSection from '@/components/SkillsSection';
-import ExperienceSection from '@/components/ExperienceSection';
-import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
-
+import TopHeader from '@/components/TopHeader';
+import Statistics from '@/components/Statistics';
+import PricingSection from '@/components/PricingSection';
+import { pricingDataOne, pricingDataTwo, sectionTitleOne, sectionTitleTwo, testimonialData, tryWithUsData } from '@/const/const';
+import TestimonialSection from '@/components/TestimonialSection';
+import TryWithUsSection from '@/components/TryWithUsSection';
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <TopBar />
+      <TopHeader />
       <Header />
-      <main className="pt-28">
+      <main>  
         <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <ContactSection />
+        <Statistics  />
+        <PricingSection pricingData={pricingDataOne} sectionTitle={sectionTitleOne} />
+        <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
+        <TestimonialSection sectionTitle={testimonialData.sectionTitle} description={testimonialData.description} testimonials={testimonialData.testimonials} />
       </main>
       <Footer />
     </div>

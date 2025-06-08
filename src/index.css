@@ -101,3 +101,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+.ant-btn-primary:hover {
+  background-color: #f97316 !important; /* orange-500 */
+  border-color: #f97316 !important;
+}
+
+.ant-btn-primary:hover span {
+  color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  border-radius: 10px !important;
+}
