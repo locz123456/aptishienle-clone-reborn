@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -17,6 +16,7 @@ const Index = () => {
       <main>  
         <HeroSection />
         <Statistics  />
+        {/* <QuickStudyRoadmapSection /> */}
         <PricingSection pricingData={pricingDataOne} sectionTitle={sectionTitleOne} />
         <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
         <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
