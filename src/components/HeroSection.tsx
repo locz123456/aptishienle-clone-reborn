@@ -4,12 +4,11 @@ import { Button } from 'antd';
 const HeroSection = () => {
   return (
     <section >
-      <div className="min-h-[60vh] md:min-h-[78vh] flex items-center relative text-white">
+      <div className="min-h-[22vh] md:min-h-[78vh] flex items-center relative text-white">
         <div 
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 bg-contain"
           style={{
             backgroundImage: "url('banner.jpg')",
-            backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
