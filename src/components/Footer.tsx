@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-x-32 lg:justify-start">
           <div className="flex md:items-start items-center gap-4">
             <img
-              src="/public/logo.png"
+              src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png"
               alt="APTIS PRO"
               width={170}
               height={170}
