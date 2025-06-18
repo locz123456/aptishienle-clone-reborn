@@ -3,78 +3,60 @@ import { Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1B2A4E] text-white py-11">
-      <div className="lg:px-[160px] mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="space-y-6">
-            <div className="flex items-center gap-4">
-              <img
-                src="https://www.aptishienle.com/static/media/logo.c96a95d470df475d3bd2.png"
-                alt="Hien Le Aptis"
-                width={70}
-                height={70}
-                className="bg-white p-1"
-              />
-              <div>
-                <h3 className="text-[24px] font-bold">Hien Le Aptis</h3>
-                <p className="text-sm text-[#9ca3ab] font-semibold">The Key To Your Future</p>
-              </div>
-            </div>
-
-            <p className="text-[#9ca3ab] max-w-xl font-semibold text-[16px]">
-              Chúng tôi cung cấp các Khóa học Aptis cam kết đầu ra và Bộ tài liệu tự ôn Aptis chất lượng cao, giúp học viên đạt được mục tiêu trong học tập và sự nghiệp.
-            </p>
-
-            <div className="flex gap-4">
-              <a 
-                href="#" 
-                className="bg-white/10 hover:bg-white/20 transition-colors p-3 rounded-lg flex items-center justify-center"
-              >
-                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.04C6.477 2.04 2 6.145 2 11.259c0 2.913 1.454 5.512 3.726 7.21V22l3.405-1.869c.909.252 1.871.388 2.869.388 5.523 0 10-4.145 10-9.259C22 6.146 17.523 2 12 2.04Z"></path></svg>
-              </a>
-              <a 
-                href="#" 
-                className="bg-white/10 hover:bg-white/20 transition-colors p-2 rounded-lg"
-              >
-                <span class="text-xs sm:text-sm font-bold">Zalo</span>
-              </a>
-            </div>
+    <footer className="bg-[#2982ca] lg:px-[160px] text-white py-8 lg:py-11">
+      <div className="lg:px-[60px] mx-auto px-4">
+        <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-x-32 lg:justify-start">
+          <div className="flex md:items-start items-center gap-4">
+            <img
+              src="/public/logo.png"
+              alt="APTIS PRO"
+              width={170}
+              height={170}
+              className="p-1 rounded w-[170px] h-[170px]"
+            />
           </div>
 
-          <div className="flex justify-start md:justify-center">
-            <div className="space-y-4">
-              <h4 className="text-[18px] font-semibold leading-none">Thông tin liên hệ</h4>
-              <div className="w-[50px] h-[5px] bg-[#3b4f84] leading-none"></div>
-              <div className="flex gap-3 text-[#9ca3ab] font-semibold">
-                <Mail className="text-gray-400 mt-1" size={25} />
-                <div>
-                  <p className="text-[16px] text-gray-400">Email</p>
-                  <a 
-                    href="mailto:aptisrealtests@gmail.com"
-                    className="hover:text-gray-300 transition-colors"
-                  >
-                    aptisrealtests@gmail.com
-                  </a>
-                </div>
-              </div>
-              <div className="flex gap-3 text-[#9ca3ab] font-semibold">
-                <Phone className="text-gray-400 mt-1" size={25} />
-                <div>
-                  <p className="text-[16px] text-gray-400 " >Điện thoại</p>
-                  <a 
-                    href="tel:0523413488"
-                    className="hover:text-gray-300 transition-colors"
-                  >
-                    0523413488
-                  </a>
-                </div>
+          <div>
+            <ul className="space-y-1 text-[14px] lg:text-[16px] font-medium">
+              <h4 className="text-[18px] lg:text-[20px] font-bold uppercase mb-2">Thông tin liên hệ</h4>
+              <li>Trung tâm luyện thi APTIS PRO</li>
+              <li>Hotline: 0965 483 350</li>
+              <li>Gmail: Aptisone.vn@gmail.com</li>
+              <li>Fanpage: Aptis PRO - Thi 1 Lần Là Đạt</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-[18px] lg:text-[20px] font-bold uppercase mb-2">Danh sách khóa học</h4>
+            <ul className="space-y-1 text-[14px] lg:text-[16px] font-medium">
+              <li>Khóa học B1 Aptis</li>
+              <li>Khóa học B2 Aptis</li>
+              <li>Khóa học Master C Aptis</li>
+            </ul>
+          </div>
+
+          <div>
+            <div>
+              <span className="font-bold uppercase text-[14px] lg:text-[16px]">Follow us</span>
+              <div className="flex gap-3 mt-2">
+                <a href="#" className="hover:bg-extra p-1 rounded-md flex items-center justify-center">
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg' className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]" />
+                </a>
+                <a href="#" className="hover:bg-extra p-1 rounded-md flex items-center justify-center">
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg' className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]" />
+                </a>
+                <a href="#" className="hover:bg-extra p-1 rounded-md flex items-center justify-center">
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg' className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]" />
+                </a>
+                <a href="#" className="hover:bg-extra p-1 rounded-md flex items-center justify-center">
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg' className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="mt-16 pt-8 pb-4 border-t border-white/10 text-center text-sm text-[#9ca3ab] font-semibold">
-          © 2025 Hien Le Aptis. All rights reserved.
+        <div className="mt-8 lg:mt-10 pt-6 border-t border-white/10 text-center text-xs lg:text-sm text-[#d1e7c6] font-semibold">
+          © 2025 APTIS PRO. All rights reserved.
         </div>
       </div>
     </footer>

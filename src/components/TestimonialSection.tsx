@@ -64,12 +64,12 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({
         >
           {testimonials.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="p-16">
-                <div className="relative w-full aspect-[4/3] mb-4 rounded-lg shadow-lg">
+              <div className="p-10">
+                <div className="relative w-full aspect-[4/3] mb-4 rounded-[20px] shadow-lg border-2">
                   <img
                     src={item.image}
                     alt={`Testimonial ${item.id}`}
-                    className="object-cover rounded-lg w-full"
+                    className="object-cover rounded-[20px] w-full"
                   />
                 </div>
               </div>
