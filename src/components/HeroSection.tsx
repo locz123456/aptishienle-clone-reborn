@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section >
       <div className="min-h-[22vh] md:min-h-[78vh] flex items-center relative text-white">
         <div 
-          className="absolute inset-0 z-0 bg-contain"
+          className="absolute inset-0 z-0 bg-cover"
           style={{
             backgroundImage: "url('banner.jpg')",
             backgroundPosition: 'center',
