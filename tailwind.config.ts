@@ -24,6 +24,8 @@ export default {
 				'playfair': ['"Playfair Display"', 'serif'],
 			},
 			colors: {
+				main: '#1898e1',
+				extra: '#1469BD',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -107,6 +109,7 @@ export default {
 			}
 		}
 	},
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
