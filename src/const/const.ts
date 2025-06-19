@@ -34,15 +34,15 @@ export const pricingDataOne = [
 
   export const pricingDataTwo = [
     {
-      image: "https://images.unsplash.com/photo-1740459603381-b2708ea2dc4a?q=80&w=3142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "B1 Course",
+      image: "/public/a1.jpg",
+      title: "A1 Course",
       features: [
         "Khóa học B1 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
       ],
       price: "2.300.000đ",
     },
     {
-      image: "https://images.unsplash.com/photo-1740458540415-dc2de53846d9?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/public/b2.jpg",
       title: "B2 Course",
       features: [
         "Khóa học B2 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
@@ -50,7 +50,7 @@ export const pricingDataOne = [
       price: "2.600.000",
     },
     {
-      image: "https://images.unsplash.com/photo-1740459603394-79241a1c1a2d?q=80&w=3213&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/public/c1.jpg",
       title: "C1 Course",
       features: [
         "Khóa học C1 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
