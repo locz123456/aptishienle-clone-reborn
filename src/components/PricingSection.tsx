@@ -15,7 +15,7 @@ interface PricingSectionProps {
 
 const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTitle }) => {
   return (
-    <section className="py-10 bg-gray-50 w-full">
+    <section className="py-10 w-full">
       <div className="lg:px-[160px] mx-auto px-4  w-full">
         <div className="flex flex-col items-center mb-10">
           <h2 className="text-[36px] font-bold text-center text-[#1B2A4E]">
@@ -31,7 +31,7 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
                 <img 
                   src={plan.image} 
                   alt={plan.title}
-                  className="w-full h-60 object-cover hover:scale-105 transition-all duration-700"
+                  className="w-full h-60 object-fill hover:scale-105 transition-all duration-700"
                 />
               </div>
               
