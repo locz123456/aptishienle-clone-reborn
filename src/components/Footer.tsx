@@ -3,9 +3,9 @@ import { Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2982ca] lg:px-[160px] text-white py-8 lg:py-11">
+    <footer className="bg-[#2982ca] lg:px-[80px] text-white py-8 lg:py-11">
       <div className="lg:px-[60px] mx-auto px-4">
-        <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-x-32 lg:justify-start">
+        <div className="flex flex-col lg:flex-row lg:justify-between">
           <div className="flex md:items-start items-center gap-4">
             <img
               src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png"

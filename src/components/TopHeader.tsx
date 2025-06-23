@@ -22,9 +22,18 @@ const TopHeader = () => {
       ]
     },
     { label: 'KHÓA HỌC APTIS', link: '#' },
+    { label: 'LỊCH KHAI GIẢNG', link: '#' },
+    { label: 'VỀ APTIS PRO', link: '#'},
     { label: 'THI THỬ', link: '#' },
     { label: 'LIÊN HỆ', link: '#' },
   ];
+
+  function handleCustomClick(e) {
+    e.preventDefault();
+    const el = document.getElementById('statistics-section');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    setIsMobileMenuOpen(false)
+  }
 
   return (
     <div className="bg-white py-1 shadow-sm" style={{ backgroundImage: 'url(https://3022.mevivu.net/wp-content/uploads/2024/12/nensach.png)' }}>
@@ -52,7 +61,7 @@ const TopHeader = () => {
         </div>
         <div className="hidden lg:flex items-center ml-4">
           <button className="bg-main text-white px-6 py-2 rounded-full font-semibold hover:bg-main transition-colors whitespace-nowrap">
-            ĐĂNG KÝ TƯ VẤN
+            ĐĂNG NHẬP KHOÁ HỌC 
           </button>
           <div className="flex items-center ml-4 gap-2">
             <img src="https://aptisone.vn/wp-content/plugins/gtranslate/flags/svg/en.svg" alt="UK Flag" className="h-5 w-7 object-cover" />
@@ -95,7 +104,7 @@ const TopHeader = () => {
                     >
                       {item.label} <DownOutlined className={`text-xs transition-transform duration-300 ${((item.label === 'GIỚI THIỆU' && isMobileGioiThieuOpen) || (item.label === 'THƯ VIỆN' && isMobileThuVienOpen)) ? 'rotate-180' : 'rotate-0'}`} />
                     </a>
-                    {((item.label === 'GIỚI THIỆU' && isMobileGioiThieuOpen) || (item.label === 'THƯ VIỆN' && isMobileThuVienOpen)) && (
+                    {((item.label === 'GIỚI THIỆU' && isMobileGioiThieuOpen)) && (
                       <ul className="bg-gray-50">
                         {item.dropdownItems?.map((dropdownItem, dropdownIndex) => (
                           <li key={dropdownIndex}>
@@ -112,7 +121,13 @@ const TopHeader = () => {
                     )}
                   </>
                 ) : (
-                  <a href={item.link} className="text-[13px] block px-4 py-3 text-gray-500 font-semibold border-b hover:bg-gray-100" onClick={() => setIsMobileMenuOpen(false)}>
+                  <a href={item.link} className="text-[13px] block px-4 py-3 text-gray-500 font-semibold border-b hover:bg-gray-100" onClick={(e) => {
+                    if (item.label === 'VỀ APTIS PRO') {
+                      handleCustomClick(e);
+                    } else {
+                      setIsMobileMenuOpen(false);
+                    }
+                  }}>
                     {item.label}
                   </a>
                 )}

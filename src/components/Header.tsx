@@ -63,6 +63,16 @@ const Header = () => {
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">KHÓA HỌC APTIS</a>
             </li>
             <li>
+              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">LỊCH KHAI GIẢNG</a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full" onClick={(e) => {
+                e.preventDefault();
+                const el = document.getElementById('statistics-section');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}>VỀ APTIS PRO</a>
+            </li>
+            <li>
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">THI THỬ</a>
             </li>
             <li>
