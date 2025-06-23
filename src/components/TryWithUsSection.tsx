@@ -19,7 +19,7 @@ const TryWithUsSection: React.FC<TryWithUsSectionProps> = ({
   videos
 }) => {
   return (
-    <section className="py-10 bg-gray-50">
+    <section className="py-10 bg-gray-50 bg-[url('https://3022.mevivu.net/wp-content/uploads/2024/12/nensach.png')]">
       <div className="lg:px-[160px] mx-auto px-4">
         <div className="flex flex-col items-center mb-10">
           <h2 className="text-[36px] font-bold text-center text-[#1B2A4E]">

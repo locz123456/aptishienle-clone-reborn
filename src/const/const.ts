@@ -1,66 +1,137 @@
 export const pricingDataOne = [
     {
-      image: "https://images.unsplash.com/photo-1740459603333-ede04df08444?q=80&w=3141&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Mastery Option",
+      image: "https://i.postimg.cc/B6z8WdK3/pro.png",
+      title: "PRO – Cơ bản, tự học chủ động",
       features: [
-        "Cấp tài khoản Hien Le Aptis Website, giống 100% với website thì thật.",
-        "Hệ thống trọng điểm 4 kỹ năng, khoảng 12 đề mỗi kỹ năng cho đợt mở bán thi.",
-        "Có kèm giáo án phương pháp học Nói - Viết.",
-        "Có bảo hành: hỗ trợ tài khoản Web đến khi thi đạt target.",
+        "✅  Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✅ Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✅ Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✅ Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "❎ 1 buổi học ONLINE trực tiếp trước ngày thi ",
+        "❎ 1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "❎ Video 8 buổi tự học theo lộ trình  riêng của Aptis Pro.",
+        "❎ Giáo viên chấm và chữa bài Speaking-Writing 1:1ật.",
       ],
-      price: "1.300.000đ",
+      price: "1.500.000đ",
+      sale: '1.300.000đ'
     },
     {
-      image: "https://images.unsplash.com/photo-1740459603348-d71ce8f89876?q=80&w=3142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Fast-Track Option",
+      image: "https://i.postimg.cc/YSpLQNH5/plus.png",
+      title: "PLUS – Nâng cao, hướng dẫn chi tiết",
       features: [
-        "Giống Mastery Option, nhưng:",
-        "Chỉ giữ trước ngày mà bạn thi 7 ngày.",
-        "Đây là option có giảm giá cho các bạn thi gấp, còn ít thời gian học.",
-        "Không bảo hành: chỉ hỗ trợ tài khoản Web cho 1 lần thi duy nhất.",
+        "✅Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✅Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✅Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✅Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "✅1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "✅1 buổi học ONLINE trực tiếp trước ngày thi ",
+        "❎Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
+        "❎Giáo viên chấm và chữa bài Speaking-Writing 1:1hi duy nhất.",,
       ],
-      price: "950.000đ",
+      price: "1.800.000đ",
+      sale: "1.500.000"
     },
     {
-      image: "https://images.unsplash.com/photo-1740458540476-a156588f6f87?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Premium Option",
+      image: "https://i.postimg.cc/ydxJbVWn/premium.png",
+      title: "PREMIUM – Toàn diện, Cam kết đầu ra",
       features: [
-        "Bao gồm Mastery Option, và video bài giảng 8 buổi học Aptis.",
-        "Có bảo hành: hỗ trợ tài khoản Web đến khi đạt target.",
+        "✅Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✅Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✅Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✅Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "✅2 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "✅1 buổi học ONLINE trực tiếp trước ngày thi",
+        "✅Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
+        "✅Giáo viên chấm và chữa bài Speaking-Writing 1:1"
       ],
-      price: "1.950.000đ",
+      price: "2.250.000đ",
+      sale: "2.000.000"
     },
   ];
 
   export const pricingDataTwo = [
     {
-      image: "https://images.unsplash.com/photo-1740459603381-b2708ea2dc4a?q=80&w=3142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "B1 Course",
+      image: "https://i.postimg.cc/8CFrzpB3/b1.jpg",
+      title: "B1 Pro – Nền tảng vững chắc",
       features: [
-        "Khóa học B1 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
+        "- Cam kết B1 chuẩn đầu ra ĐH, đầu vào Cao Học và xét tuyển việc làm,...",
+        "- Lộ trình học 8 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
+        "- Cung cấp 8 video record buổi học để học viên ôn tập.",
+        "- Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1",
+        "- Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
+        "- 1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Học lại free đến khi đạt target trong 1 năm.",
       ],
-      price: "2.300.000đ",
+      price: "2.500.000đ",
+      sale: "2.300.000"
     },
     {
-      image: "https://images.unsplash.com/photo-1740458540415-dc2de53846d9?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "B2 Course",
+      image: "https://i.postimg.cc/SKwYXBgK/b2.jpg",
+      title: "B2 Pro – Kiến thức nâng caoourse",
       features: [
-        "Khóa học B2 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
+        "- Cam kết B2 chuẩn đầu ra ĐH, Cao Học, đầu vào nghiên cứu sinh và xét tuyển việc làm,...",
+        "- Lộ trình học 8 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
+        "- Cung cấp 8 video record buổi học để học viên ôn tập.",
+        "- Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1",
+        "- Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
+        "- 1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Học lại free đến khi đạt target trong 1 năm.",
       ],
-      price: "2.600.000",
+      price: "3.000.000",
+      sale: "2.600.000"
+    },
+    {
+      image: "https://i.postimg.cc/MKDBsrps/c1.jpg",
+      title: "C1 Pro – Kiến thức toàn diện",
+      features: [
+        "- Cam kết C1 chuẩn đầu ra ĐH, Cao Học, đầu ra nghiên cứu sinh và xét tuyển việc làm,...",
+        "- Lộ trình học 10 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
+        "- Cung cấp 10 video record buổi học để học viên ôn tập.",
+        "- Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1.",
+        "- Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "- 1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Học lại free đến khi đạt target trong 1 năm."
+      ],
+      price: "3.500.000đ",
+      sale: "3.000.000"
     },
     {
       image: "https://images.unsplash.com/photo-1740459603394-79241a1c1a2d?q=80&w=3213&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "C1 Course",
+      title: "B1-B2 Vippro – Từ mất gốc đến nâng cao",
       features: [
-        "Khóa học C1 cam kết đầu ra, học với bộ đề siêu trúng, giảng viên kèm đến ngày thi.",
+        "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến dễ dàng sử dụng tiếng Anh",
+        "- Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B1-B2 hiệu quả.",
+        "- Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
+        "- Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
+        "- Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "- Chấm và chữa bài kỹ lưỡng, kèm 1-1 tổng 5 kĩ năng với giảng viên và trợ giảng.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Giới hạn số lượng học viên dưới 10 bạn."
       ],
-      price: "3.000.000đ",
+      price: "4.500.000đ",
+    },
+    {
+      image: "https://images.unsplash.com/photo-1740459603394-79241a1c1a2d?q=80&w=3213&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "B2-C1 Vippro – Từ mất gốc đến toàn diện",
+      features: [
+        "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến thành thạo sử dụng tiếng Anh.",
+        "- Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B2-C1 hiệu quả.",
+        "- Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
+        "- Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
+        "- Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "- Chấm và chữa bài kỹ lưỡng, kèm 1-1 tổng 5 kĩ năng với giảng viên và trợ giảng.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Giới hạn số lượng học viên dưới 10 bạn."
+      ],
+      price: "6.500.000đ",
     },
   ];
 
-export const sectionTitleOne = "Bộ tài liệu Aptis Esol General";
-export const sectionTitleTwo = "Khóa học Aptis Esol General";
+export const sectionTitleOne = "Tài liệu tự học";
+export const sectionTitleTwo = "Khoá học";
 
 export const tryWithUsData = {
     sectionTitle: "Học thử cùng chúng tôi",

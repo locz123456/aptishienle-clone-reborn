@@ -6,6 +6,7 @@ interface PricingPlan {
   title: string;
   features: string[];
   price: string;
+  sale?: string;
 }
 
 interface PricingSectionProps {
@@ -31,7 +32,7 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
                 <img 
                   src={plan.image} 
                   alt={plan.title}
-                  className="w-full h-60 object-fill hover:scale-105 transition-all duration-700"
+                  className="w-full object-fill hover:scale-105 transition-all duration-700"
                 />
               </div>
               
@@ -40,14 +41,14 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
                 <ul className="text-[14px]">
                   {plan.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      <span className="mr-2">{feature.startsWith("-") ? "" : "-"}</span>
-                      {feature.replace(/^-\s*/, "")}
+                      <span className="mr-2">{feature}</span>
                     </li>
                   ))}
                 </ul>
                 
                 <div className="text-2xl font-bold text-orange-500 my-3">
-                  {plan.price}
+                  <span className="">{plan.sale ? `${plan.sale}` : ''} </span>
+                  <span className={`${plan.sale ? ' line-through text-xl text-gray-400 ml-3' : ''}`}>{plan.price}</span>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
