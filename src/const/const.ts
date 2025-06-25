@@ -98,11 +98,14 @@ export const pricingDataOne = [
       price: "3.500.000đ",
       sale: "3.000.000"
     },
+  ];
+
+  export const pricingDataThree = [
     {
       image: "https://i.postimg.cc/261mcLc5/B1-B2.jpg",
-      title: "B1-B2 Vippro – Từ mất gốc đến nâng cao",
+      title: " B1 VIP PRO – TỪ MẤT GỐC ĐẾN NÂNG CAO",
       features: [
-        "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến dễ dàng sử dụng tiếng Anh",
+        "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến dễ dàng sử dụng tiếng Anh ",
         "- Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B1-B2 hiệu quả.",
         "- Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
         "- Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
@@ -111,11 +114,12 @@ export const pricingDataOne = [
         "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "- Giới hạn số lượng học viên dưới 10 bạn."
       ],
-      price: "4.500.000đ",
+      price: "4.000.000đ",
+      sale: "3.500.000đ",
     },
     {
       image: "https://i.postimg.cc/c4RWbSmf/B2-C1.jpg",
-      title: "B2-C1 Vippro – Từ mất gốc đến toàn diện",
+      title: "B2 VIP PRO – TỪ MẤT GỐC ĐẾN TOÀN DIỆN",
       features: [
         "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến thành thạo sử dụng tiếng Anh.",
         "- Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B2-C1 hiệu quả.",
@@ -126,12 +130,30 @@ export const pricingDataOne = [
         "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "- Giới hạn số lượng học viên dưới 10 bạn."
       ],
-      price: "6.500.000đ",
+      price: "6.000.000đ",
+      sale: "5.500.000đ",
+    },
+    {
+      image: "https://i.postimg.cc/c4RWbSmf/B2-C1.jpg",
+      title: "C1 VIP PRO – TỪ MẤT GỐC ĐẾN SIÊU CẤP ",
+      features: [
+        "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến giỏi tiếng Anh toàn diện.",
+        "- Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B2-C1 hiệu quả.",
+        "- Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
+        "- Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
+        "- Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "- Chấm và chữa bài kỹ lưỡng, kèm 1-1 tổng 5 kĩ năng với giảng viên và trợ giảng.",
+        "- Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
+        "- Giới hạn số lượng học viên dưới 10 bạn."
+      ],
+      price: "8.000.000đ",
+      sale: "7.500.000đ",
     },
   ];
 
 export const sectionTitleOne = "Tài liệu tự học";
-export const sectionTitleTwo = "Khoá học";
+export const sectionTitleTwo = "Khoá học Pro";
+export const sectionTitleThree = "Khoá học Vip Pro";
 
 export const tryWithUsData = {
     sectionTitle: "Học thử cùng chúng tôi",
