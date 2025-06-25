@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import TopHeader from '@/components/TopHeader';
 import Statistics from '@/components/Statistics';
 import PricingSection from '@/components/PricingSection';
+import PricingSectionSwiper from '@/components/PricingSectionSwiper';
 import { pricingDataOne, pricingDataTwo, sectionTitleOne, sectionTitleTwo, testimonialData, tryWithUsData } from '@/const/const';
 import TestimonialSection from '@/components/TestimonialSection';
 import TryWithUsSection from '@/components/TryWithUsSection';
@@ -16,9 +17,9 @@ const Index = () => {
       <Header />
       <main className="bg-[url('https://3022.mevivu.net/wp-content/uploads/2024/12/nensach.png')]">  
         <HeroSection />
-        <Statistics  />
+        <Statistics />
         <PricingSection pricingData={pricingDataOne} sectionTitle={sectionTitleOne} />
-        <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        <PricingSectionSwiper pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
         <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
         <TestimonialSection sectionTitle={testimonialData.sectionTitle} description={testimonialData.description} testimonials={testimonialData.testimonials} />
         <ConsultationBanner />

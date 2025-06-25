@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
+import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 
 interface PricingPlan {
   image: string;
@@ -41,7 +42,13 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
                 <ul className="text-[14px]">
                   {plan.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      <span className="mr-2">{feature}</span>
+                      {feature.trim().startsWith('✔️') && (
+                        <CheckOutlined className="text-green-500 mr-1 mt-1" />
+                      )}
+                      {feature.trim().startsWith('✖️') && (
+                        <CloseOutlined className="text-red-500 mr-1 mt-1" />
+                      )}
+                      <span className="mr-2">{feature.slice(1)}</span>
                     </li>
                   ))}
                 </ul>

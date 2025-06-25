@@ -23,7 +23,6 @@ const TopHeader = () => {
     },
     { label: 'KHÓA HỌC APTIS', link: '#' },
     { label: 'LỊCH KHAI GIẢNG', link: '#' },
-    { label: 'VỀ APTIS PRO', link: '#'},
     { label: 'THI THỬ', link: '#' },
     { label: 'LIÊN HỆ', link: '#' },
   ];
@@ -122,11 +121,7 @@ const TopHeader = () => {
                   </>
                 ) : (
                   <a href={item.link} className="text-[13px] block px-4 py-3 text-gray-500 font-semibold border-b hover:bg-gray-100" onClick={(e) => {
-                    if (item.label === 'VỀ APTIS PRO') {
-                      handleCustomClick(e);
-                    } else {
-                      setIsMobileMenuOpen(false);
-                    }
+                    setIsMobileMenuOpen(false);
                   }}>
                     {item.label}
                   </a>
