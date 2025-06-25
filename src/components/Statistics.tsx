@@ -34,9 +34,9 @@ const statisticsData = [
 const Statistics = () => {
   return (
     <div className="w-full bg-white py-8 bg-[url('https://3022.mevivu.net/wp-content/uploads/2024/12/nensach.png')] mt-14">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 md:gap-0 px-4">
+      <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-0">
         {statisticsData.map((item, idx) => (
-          <div key={idx} className="flex flex-col items-center flex-1 min-w-[120px]">
+          <div key={idx} className="flex flex-col items-center flex-1 min-w-[80px]">
             <div className="mb-2 text-black">{item.icon}</div>
             <div className="text-xl md:text-2xl font-bold text-[#1a2237] mb-1">{item.number}</div>
             <div className="text-gray-400 text-base md:text-lg font-semibold">{item.label}</div>

@@ -5,8 +5,7 @@ import Footer from '@/components/Footer';
 import TopHeader from '@/components/TopHeader';
 import Statistics from '@/components/Statistics';
 import PricingSection from '@/components/PricingSection';
-import PricingSectionSwiper from '@/components/PricingSectionSwiper';
-import { pricingDataOne, pricingDataTwo, sectionTitleOne, sectionTitleTwo, testimonialData, tryWithUsData } from '@/const/const';
+import { pricingDataOne, pricingDataThree, pricingDataTwo, sectionTitleOne, sectionTitleThree, sectionTitleTwo, testimonialData, tryWithUsData } from '@/const/const';
 import TestimonialSection from '@/components/TestimonialSection';
 import TryWithUsSection from '@/components/TryWithUsSection';
 import ConsultationBanner from '@/components/ConsultationBanner';
@@ -19,7 +18,8 @@ const Index = () => {
         <HeroSection />
         <Statistics />
         <PricingSection pricingData={pricingDataOne} sectionTitle={sectionTitleOne} />
-        <PricingSectionSwiper pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        <PricingSection pricingData={pricingDataThree} sectionTitle={sectionTitleThree} />
         <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
         <TestimonialSection sectionTitle={testimonialData.sectionTitle} description={testimonialData.description} testimonials={testimonialData.testimonials} />
         <ConsultationBanner />

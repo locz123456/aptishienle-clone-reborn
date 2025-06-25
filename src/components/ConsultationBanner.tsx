@@ -17,7 +17,7 @@ const ConsultationBanner = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center
     pt-4 pb-16 px-2 md:px-0">
-      <div className="w-full md:w-[520px] flex-shrink-0 flex justify-center">
+      <div className="w-[400px] md:w-[450px] flex-shrink-0 flex justify-center">
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={20}
@@ -33,10 +33,10 @@ const ConsultationBanner = () => {
           ))}
         </Swiper>
       </div>
-      <div className="w-full md:w-[520px] bg-white rounded-xl shadow-lg p-6 md:ml-8 mt-6 md:mt-0 flex flex-col items-center">
-        <h2 className="text-xl md:text-2xl font-bold text-main text-center mt-6">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h2>
+      <div className="w-[400px] md:w-[450px] bg-white rounded-xl shadow-lg p-6 md:ml-8 mt-6 md:mt-0 flex flex-col items-center">
+        <h2 className="text-xl md:text-2xl font-bold text-main text-center">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h2>
         <p className="text-main text-sm font-semibold text-center mt-1 mb-8 italic">Nhận ngay ƯU ĐÃI</p>
-        <form className="w-full flex flex-col gap-5">
+        <form className="w-full flex flex-col gap-3">
           <Input placeholder="Tên của bạn" size='large' className="border rounded px-3 py-2 focus:outline-none"/>
           <Input placeholder="Số điện thoại" size='large' className="border rounded px-3 py-2 focus:outline-none"/>
           <Input placeholder="Email" size='large' className="border rounded px-3 py-2 focus:outline-none"/>
