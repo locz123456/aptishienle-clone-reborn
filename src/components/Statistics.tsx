@@ -33,13 +33,15 @@ const statisticsData = [
 
 const Statistics = () => {
   return (
-    <div className="w-full bg-white py-8 bg-[url('https://3022.mevivu.net/wp-content/uploads/2024/12/nensach.png')] mt-14">
-      <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-0">
-        {statisticsData.map((item, idx) => (
-          <div key={idx} className="flex flex-col items-center flex-1 min-w-[80px]">
-            <div className="mb-2 text-black">{item.icon}</div>
-            <div className="text-xl md:text-2xl font-bold text-[#1a2237] mb-1">{item.number}</div>
-            <div className="text-gray-400 text-base md:text-lg font-semibold">{item.label}</div>
+    <div className="container mx-auto py-5 md:py-10 px-4 flex justify-center mt-10">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-2">
+        {statisticsData.map((item, index) => (
+          <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-6 text-center md:text-left">
+            {item.icon}
+            <div>
+              <div className="text-2xl md:text-3xl font-bold">{item.number}</div>
+              <div className="text-sm md:text-base text-gray-500">{item.label}</div>
+            </div>
           </div>
         ))}
       </div>
