@@ -6,14 +6,23 @@ const Footer = () => {
     <footer className="bg-[#2982ca] lg:px-[80px] text-white py-8 lg:py-11">
       <div className="lg:px-[60px] mx-auto px-4">
         <div className="flex flex-col lg:flex-row lg:justify-between">
-          <div className="flex md:items-start items-center gap-4">
-            <img
-              src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png"
-              alt="APTIS PRO"
-              width={170}
-              height={170}
-              className="p-1 rounded w-[170px] h-[170px]"
-            />
+          <div className="flex flex-col items-start ">
+            <div className="flex flex-row items-start ">
+              <img
+                src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png"
+                alt="APTIS PRO"
+                width={170}
+                height={170}
+                className="p-1 rounded w-[100px] h-[100px] bg-white"
+              />
+              <div className="ml-2 text-lg">
+                <p className="font-bold">Aptis Pro</p>
+                <p className="text-sm text-gray-300">Học Tinh Hoa ,Điểm Bứt Phá nữa</p>
+              </div>
+            </div>
+            <p className='lg:w-80 mb-8 mt-2 lg:mb-0 text-sm text-gray-300'>
+              AptisPro – luyện thi Aptis với nền tảng thi thử duy nhất mô phỏng 100% kỳ thi thật
+            </p>
           </div>
 
           <div>

@@ -35,7 +35,7 @@ const Header = () => {
         ? 'fixed top-0 left-0 right-0 z-50 shadow-sm'
         : ''
     }`}>
-      <div className="py-5 flex lg:px-[160px] mx-auto px-0 justify-center items-center">
+      <div className="py-5 flex mx-auto px-0 justify-center items-center">
         <nav>
           <ul className="flex items-center gap-8 text-white font-bold text-sm">
             <li>
@@ -64,13 +64,6 @@ const Header = () => {
             </li>
             <li>
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">LỊCH KHAI GIẢNG</a>
-            </li>
-            <li>
-              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full" onClick={(e) => {
-                e.preventDefault();
-                const el = document.getElementById('statistics-section');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
-              }}>VỀ APTIS PRO</a>
             </li>
             <li>
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">THI THỬ</a>

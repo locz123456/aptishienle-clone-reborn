@@ -3,14 +3,14 @@ export const pricingDataOne = [
       image: "https://i.postimg.cc/B6z8WdK3/pro.png",
       title: "PRO – Cơ bản, tự học chủ động",
       features: [
-        "✅  Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
-        "✅ Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
-        "✅ Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
-        "✅ Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
-        "❎ 1 buổi học ONLINE trực tiếp trước ngày thi ",
-        "❎ 1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
-        "❎ Video 8 buổi tự học theo lộ trình  riêng của Aptis Pro.",
-        "❎ Giáo viên chấm và chữa bài Speaking-Writing 1:1ật.",
+        "✔️ Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✔️ Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✔️ Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✔️ Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "✖️ 1 buổi học ONLINE trực tiếp trước ngày thi ",
+        "✖️ 1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "✖️ Video 8 buổi tự học theo lộ trình  riêng của Aptis Pro.",
+        "✖️ Giáo viên chấm và chữa bài Speaking-Writing 1:1ật.",
       ],
       price: "1.500.000đ",
       sale: '1.300.000đ'
@@ -19,14 +19,14 @@ export const pricingDataOne = [
       image: "https://i.postimg.cc/YSpLQNH5/plus.png",
       title: "PLUS – Nâng cao, hướng dẫn chi tiết",
       features: [
-        "✅Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
-        "✅Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
-        "✅Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
-        "✅Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
-        "✅1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
-        "✅1 buổi học ONLINE trực tiếp trước ngày thi ",
-        "❎Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
-        "❎Giáo viên chấm và chữa bài Speaking-Writing 1:1hi duy nhất.",,
+        "✔️Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✔️Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✔️Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✔️Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "✔️1 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "✔️1 buổi học ONLINE trực tiếp trước ngày thi ",
+        "✖️Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
+        "✖️Giáo viên chấm và chữa bài Speaking-Writing 1:1hi duy nhất.",,
       ],
       price: "1.800.000đ",
       sale: "1.500.000"
@@ -35,14 +35,14 @@ export const pricingDataOne = [
       image: "https://i.postimg.cc/ydxJbVWn/premium.png",
       title: "PREMIUM – Toàn diện, Cam kết đầu ra",
       features: [
-        "✅Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
-        "✅Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
-        "✅Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
-        "✅Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
-        "✅2 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
-        "✅1 buổi học ONLINE trực tiếp trước ngày thi",
-        "✅Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
-        "✅Giáo viên chấm và chữa bài Speaking-Writing 1:1"
+        "✔️Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
+        "✔️Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
+        "✔️Tư vấn hỗ trợ, giải đáp thắc mắc 24/7.",
+        "✔️Truy cập vào nhóm Zalo tổng hợp review đề thi thật.",
+        "✔️2 lần thi thử  5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
+        "✔️1 buổi học ONLINE trực tiếp trước ngày thi",
+        "✔️Video 8 buổi tự học theo lộ trình riêng của Aptis Pro",
+        "✔️Giáo viên chấm và chữa bài Speaking-Writing 1:1"
       ],
       price: "2.250.000đ",
       sale: "2.000.000"
@@ -99,7 +99,7 @@ export const pricingDataOne = [
       sale: "3.000.000"
     },
     {
-      image: "https://images.unsplash.com/photo-1740459603394-79241a1c1a2d?q=80&w=3213&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://i.postimg.cc/261mcLc5/B1-B2.jpg",
       title: "B1-B2 Vippro – Từ mất gốc đến nâng cao",
       features: [
         "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến dễ dàng sử dụng tiếng Anh",
@@ -114,7 +114,7 @@ export const pricingDataOne = [
       price: "4.500.000đ",
     },
     {
-      image: "https://images.unsplash.com/photo-1740459603394-79241a1c1a2d?q=80&w=3213&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://i.postimg.cc/c4RWbSmf/B2-C1.jpg",
       title: "B2-C1 Vippro – Từ mất gốc đến toàn diện",
       features: [
         "- Dành cho các bạn mất gốc và bắt đầu từ con số 0 đến thành thạo sử dụng tiếng Anh.",
