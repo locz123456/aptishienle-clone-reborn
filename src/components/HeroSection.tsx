@@ -14,8 +14,8 @@ const HeroSection = () => {
           }}
         />
       </div>
-      <div className="hidden transition-all duration-300 ease-in-out absolute z-10 md:flex items-center justify-center bottom-[70px]
-       hover:bottom-[80px] left-1/2 -translate-x-1/2">
+      <div className="hidden transition-all duration-300 ease-in-out relative z-10 md:flex items-center justify-center bottom-[40px]
+       left-1/2 -translate-x-1/2">
         <span 
           className="bg-main text-white rounded-full px-8 py-5 text-lg font-bold flex items-center justify-center
            shadow-lg shadow-black/30 cursor-pointer  hover:shadow-black/40" 
