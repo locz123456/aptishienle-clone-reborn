@@ -33,7 +33,7 @@ const statisticsData = [
 
 const Statistics = () => {
   return (
-    <div className="container mx-auto py-5 md:py-10 px-4 flex justify-center mt-10">
+    <div className="container mx-auto py-5 md:py-10 px-4 flex justify-center">
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-2">
         {statisticsData.map((item, index) => (
           <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-6 text-center md:text-left">
