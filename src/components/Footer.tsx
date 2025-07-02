@@ -4,8 +4,8 @@ import { Mail, Phone } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-[#2982ca] lg:px-[80px] text-white py-8 lg:py-11">
-      <div className="lg:px-[60px] mx-auto px-4">
-        <div className="flex flex-col lg:flex-row lg:justify-between">
+      <div className=" mx-auto px-4">
+        <div className="flex flex-col lg:flex-row lg:justify-evenly">
           <div className="flex flex-col items-start ">
             <div className="flex flex-row items-start ">
               <img
@@ -17,7 +17,7 @@ const Footer = () => {
               />
               <div className="ml-2 text-lg">
                 <p className="font-bold">Aptis Pro</p>
-                <p className="text-sm text-gray-300">Học Tinh Hoa ,Điểm Bứt Phá nữa</p>
+                <p className="text-sm text-gray-300">Học Tinh Hoa ,Điểm Bứt Phá</p>
               </div>
             </div>
             <p className='lg:w-80 mb-8 mt-2 lg:mb-0 text-sm text-gray-300'>
@@ -29,18 +29,9 @@ const Footer = () => {
             <ul className="space-y-1 text-[14px] lg:text-[16px] font-medium">
               <h4 className="text-[18px] lg:text-[20px] font-bold uppercase mb-2">Thông tin liên hệ</h4>
               <li>Trung tâm luyện thi APTIS PRO</li>
-              <li>Hotline: 0965 483 350</li>
-              <li>Gmail: Aptisone.vn@gmail.com</li>
-              <li>Fanpage: Aptis PRO - Thi 1 Lần Là Đạt</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-[18px] lg:text-[20px] font-bold uppercase mb-2">Danh sách khóa học</h4>
-            <ul className="space-y-1 text-[14px] lg:text-[16px] font-medium">
-              <li>Khóa học B1 Aptis</li>
-              <li>Khóa học B2 Aptis</li>
-              <li>Khóa học Master C Aptis</li>
+              <li>Hotline: 0966 987 119</li>
+              <li>Gmail: Aptispro.vn@gmail.com</li>
+              <li>Fanpage: AptisPro.vn Ôn thi trọng tâm, bộ KEYs độc quyền</li>
             </ul>
           </div>
 

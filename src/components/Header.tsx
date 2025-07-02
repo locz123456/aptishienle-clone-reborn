@@ -8,8 +8,6 @@ const Header = () => {
   const gioiThieuItems = [
     { label: 'VỀ APTIS PRO', link: '#' },
     { label: 'ĐỘI NGŨ GIÁO VIÊN', link: '#' },
-    { label: 'HỌC VIÊN', link: '#' },
-    { label: 'PHƯƠNG PHÁP ĐÀO TẠO', link: '#' },
     { label: 'CHÍNH SÁCH VÀ CAM KẾT', link: '#' },
   ];
 
@@ -60,7 +58,13 @@ const Header = () => {
                 </ul>
             </li>
             <li>
-              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">KHÓA HỌC APTIS</a>
+              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full" onClick={(e) => {
+                e.preventDefault();
+                const el = document.getElementById('pricingTwo');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}>KHÓA HỌC APTIS</a>
             </li>
             <li>
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">LỊCH KHAI GIẢNG</a>

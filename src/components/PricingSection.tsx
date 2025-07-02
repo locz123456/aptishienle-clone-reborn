@@ -42,13 +42,15 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
                 <ul className="text-[14px]">
                   {plan.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      {feature.trim().startsWith('✔️') && (
-                        <CheckOutlined className="text-green-500 mr-1 mt-1" />
-                      )}
-                      {feature.trim().startsWith('✖️') && (
-                        <CloseOutlined className="text-red-500 mr-1 mt-1" />
-                      )}
-                      <span className="mr-2">{feature.slice(1)}</span>
+                      <div className="mr-2">
+                        {feature.trim().startsWith('✔️') && (
+                          <CheckOutlined className="text-white bg-green-400 mt-1 rounded-sm shadow-lg p-[0.5px] border-2 border-green-400" />
+                        )}
+                        {feature.trim().startsWith('✖️') && (
+                          <CloseOutlined className="text-white bg-red-700 mt-1 rounded-sm shadow-lg p-[0.5px] border-2 border-red-700" />
+                        )}
+                      </div>
+                      <span className="">{feature.slice(1)}</span>
                     </li>
                   ))}
                 </ul>
