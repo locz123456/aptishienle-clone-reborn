@@ -18,7 +18,9 @@ const Index = () => {
         <HeroSection />
         <Statistics />
         <PricingSection pricingData={pricingDataOne} sectionTitle={sectionTitleOne} />
-        <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        <div id="pricingTwo">
+          <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} />
+        </div>
         <PricingSection pricingData={pricingDataThree} sectionTitle={sectionTitleThree} />
         <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
         <TestimonialSection sectionTitle={testimonialData.sectionTitle} description={testimonialData.description} testimonials={testimonialData.testimonials} />
