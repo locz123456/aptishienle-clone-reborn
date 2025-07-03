@@ -175,8 +175,8 @@ export const tryWithUsData = {
   };
 
   export const testimonialData = {
-    sectionTitle: "Học viên nói gì về chúng tôi?",
-    description: "Uy tín tạo nên thương hiệu – Lắng nghe những phản hồi chân thành từ học viên AptisPro",
+    sectionTitle: "Uy tín tạo nên thương hiệu",
+    description: "Lắng nghe những phản hồi chân thành từ học viên AptisPro",
     testimonials: [
       {
         id: 1,
