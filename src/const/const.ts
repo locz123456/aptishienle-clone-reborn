@@ -155,6 +155,10 @@ export const sectionTitleOne = "Tài liệu tự học";
 export const sectionTitleTwo = "Khoá học Pro";
 export const sectionTitleThree = "Khoá học Vip Pro";
 
+export const descriptionOne = "Dành cho người có nền tảng tốt, thi gấp, cần ôn nhanh – tự học linh hoạt.";
+export const descriptionTwo = "Phù hợp với người trẻ, tiếp thu nhanh, muốn ôn thi trọng tâm trong thời gian ngắn.";
+export const descriptionThree = "Dành cho người mất gốc hoặc lớn tuổi – học từ nền tảng theo lộ trình bài bản.";
+
 export const tryWithUsData = {
     sectionTitle: "AptisPro.vn có gì đặc biệt?",
     description: "Cùng khám phá khóa học chuẩn hoá & hệ thống thi thử chuyên sâu!",
