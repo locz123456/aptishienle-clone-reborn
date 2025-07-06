@@ -21,7 +21,7 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
     <section className="py-10 w-full">
       <div className="lg:px-[160px] mx-auto px-4  w-full">
         <div className="flex flex-col items-center mb-10">
-          <h2 className="text-[36px] font-bold text-center text-[#1B2A4E]">
+          <h2 className="text-[36px] font-bold text-center text-[#1B2A4E] uppercase">
             {sectionTitle}
           </h2>
           <div className="w-[100px] h-[5px] bg-[#1e3364] mt-4"></div>
