@@ -13,9 +13,10 @@ interface PricingPlan {
 interface PricingSectionProps {
   pricingData: PricingPlan[];
   sectionTitle: string;
+  description: string
 }
 
-const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTitle }) => {
+const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTitle, description }) => {
   return (
     <section className="py-10 w-full">
       <div className="lg:px-[160px] mx-auto px-4  w-full">
@@ -24,6 +25,9 @@ const PricingSection: React.FC<PricingSectionProps> = ({ pricingData, sectionTit
             {sectionTitle}
           </h2>
           <div className="w-[100px] h-[5px] bg-[#1e3364] mt-4"></div>
+          <p className="text-center text-gray-600 max-w-2xl mx-auto mt-8 text-lg">
+            {description}
+          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
