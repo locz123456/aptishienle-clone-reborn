@@ -4,15 +4,8 @@ const HeroSection = () => {
   const [showIcons, setShowIcons] = useState(false);
   return (
     <section >
-      <div className="min-h-[22vh] md:min-h-[78vh] flex items-center relative text-white">
-        <div 
-          className="absolute inset-0 z-0 bg-cover md:hidden"
-          style={{
-            backgroundImage: "url('banner.jpg')",
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
-        />
+      <img className='md:hidden' src="https://i.postimg.cc/kgS772jH/BannerM.jpg" alt="" />
+      <div className="md:min-h-[78vh] flex items-center relative text-white">
         <div 
           className="absolute inset-0 z-0 bg-cover hidden md:block"
           style={{
