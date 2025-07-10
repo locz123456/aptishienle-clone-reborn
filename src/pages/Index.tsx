@@ -22,7 +22,7 @@ const Index = () => {
           <PricingSection pricingData={pricingDataTwo} sectionTitle={sectionTitleTwo} description={descriptionTwo}/>
         </div>
         <PricingSection pricingData={pricingDataThree} sectionTitle={sectionTitleThree} description={descriptionThree}/>
-        <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} />
+        {/* <TryWithUsSection sectionTitle={tryWithUsData.sectionTitle} description={tryWithUsData.description} videos={tryWithUsData.videos} /> */}
         <TestimonialSection sectionTitle={testimonialData.sectionTitle} description={testimonialData.description} testimonials={testimonialData.testimonials} />
         <ConsultationBanner />
       </main>

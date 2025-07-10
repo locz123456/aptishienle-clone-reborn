@@ -70,7 +70,7 @@ const Header = () => {
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">LỊCH KHAI GIẢNG</a>
             </li>
             <li>
-              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">THI THỬ</a>
+              <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">THI THỬ FREE</a>
             </li>
             <li>
               <a href="#" className="hover:bg-white hover:text-main px-6 py-3 rounded-full">LIÊN HỆ</a>
