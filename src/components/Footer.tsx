@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-col items-start ">
             <div className="flex flex-row items-start ">
               <img
-                src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png"
+                src="https://i.postimg.cc/mrpbCbbW/APTISPRO-Logo-1.jpg"
                 alt="APTIS PRO"
                 width={170}
                 height={170}
