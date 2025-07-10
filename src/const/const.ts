@@ -1,7 +1,7 @@
 export const pricingDataOne = [
     {
       image: "https://i.postimg.cc/B6z8WdK3/pro.png",
-      title: "PRO – Cơ bản, tự học chủ động",
+      title: "PRO – Cơ bản, tự học chủ động thời gian",
       features: [
         "✔️Cấp tài khoản luyện đề thi trên web  aptispro.vn giống thật 100% trong 30 ngày",
         "✔️Cấp giáo trình trọng tâm 5 kĩ năng:  Listening, Speaking, Reading, Writing, G&V.",
@@ -58,7 +58,7 @@ export const pricingDataOne = [
         "✔️Lộ trình học 8 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
         "✔️Cung cấp 8 video record buổi học để học viên ôn tập.",
         "✔️Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1",
-        "✔️Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
+        "✔️Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
         "✔️1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
         "✔️Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "✔️Học lại free đến khi đạt target trong 1 năm.",
@@ -68,13 +68,13 @@ export const pricingDataOne = [
     },
     {
       image: "https://i.postimg.cc/1tJcmPMg/b2pro.jpg",
-      title: "B2 Pro – Kiến thức nâng caoourse",
+      title: "B2 Pro – Kiến thức nâng cao",
       features: [
         "✔️Cam kết B2 chuẩn đầu ra ĐH, Cao Học, đầu vào nghiên cứu sinh và xét tuyển việc làm,...",
         "✔️Lộ trình học 8 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
         "✔️Cung cấp 8 video record buổi học để học viên ôn tập.",
         "✔️Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1",
-        "✔️Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
+        "✔️Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro",
         "✔️1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
         "✔️Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "✔️Học lại free đến khi đạt target trong 1 năm.",
@@ -90,7 +90,7 @@ export const pricingDataOne = [
         "✔️Lộ trình học 10 buổi ONLINE trực tiếp qua Zoom có tương tác với giáo viên.",
         "✔️Cung cấp 10 video record buổi học để học viên ôn tập.",
         "✔️Giáo viên chấm và chữa bài Speaking-Writing kèm 1:1.",
-        "✔️Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "✔️Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
         "✔️1 lần thi thử 5 kĩ năng giống thi thật 100% có chấm điểm, chữa bài.",
         "✔️Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "✔️Học lại free đến khi đạt target trong 1 năm."
@@ -157,7 +157,7 @@ export const sectionTitleThree = "Khoá học Vip Pro";
 
 export const descriptionOne = "Dành cho người có nền tảng tốt, thi gấp, cần ôn nhanh – tự học linh hoạt.";
 export const descriptionTwo = "Phù hợp với người trẻ, tiếp thu nhanh, muốn ôn thi trọng tâm trong thời gian ngắn.";
-export const descriptionThree = "Dành cho người mất gốc hoặc lớn tuổi – học từ nền tảng theo lộ trình bài bản.";
+export const descriptionThree = "Dành cho người mất gốc hoặc anh chị nhiều tuổi – học từ nền tảng  cơ bản theo lộ trình bài bản.";
 
 export const tryWithUsData = {
     sectionTitle: "AptisPro.vn có gì đặc biệt?",
@@ -184,31 +184,27 @@ export const tryWithUsData = {
     testimonials: [
       {
         id: 1,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
+        image: "https://i.postimg.cc/QtfyYtF0/comment1.jpg",
       },
       {
         id: 2,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
+        image: "https://i.postimg.cc/wM3bCpJH/comment2.jpg",
       },
       {
         id: 3,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
+        image: "https://i.postimg.cc/sx80yN9W/comment3.jpg",
       },
       {
         id: 4,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
+        image: "https://i.postimg.cc/PrwSYKQ6/comment4.jpg",
       },
       {
         id: 5,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
+        image: "https://i.postimg.cc/x1VtRHs9/comment5.jpg",
       },
       {
         id: 6,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
-      },
-      {
-        id: 7,
-        image: "https://www.aptishienle.com/static/media/review3.4c1d6549aed55208ce01.png",
-      },
+        image: "https://i.postimg.cc/fR75gLFm/comment6.jpg",
+      }
     ]
   };

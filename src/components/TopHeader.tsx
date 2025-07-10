@@ -23,7 +23,7 @@ const TopHeader = () => {
     },
     { label: 'KHÓA HỌC APTIS', link: '#' },
     { label: 'LỊCH KHAI GIẢNG', link: '#' },
-    { label: 'THI THỬ', link: '#' },
+    { label: 'THI THỬ FREE', link: '#' },
     { label: 'LIÊN HỆ', link: '#' },
   ];
 

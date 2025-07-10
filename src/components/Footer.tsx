@@ -28,8 +28,8 @@ const Footer = () => {
           <div>
             <h4 className="text-[18px] lg:text-[20px] font-bold uppercase mb-2">Thông tin liên hệ</h4>
             <ul className="space-y-1 text-[14px] lg:text-[16px] font-medium list-disc list-inside">
-              <li>Trung tâm luyện thi APTIS PRO</li>
-              <li>Hotline: 0966 987 119</li>
+              <li>Địa chỉ: 358 Giải Phóng, P. Phương Liệt, Hà Nội</li>
+              <li>Hotline: 098.792.1358 - 0966.987.119</li>
               <li>Gmail: Aptispro.vn@gmail.com</li>
               <li>Fanpage: AptisPro.vn | Ôn thi trọng tâm, bộ KEYs độc quyền</li>
             </ul>
