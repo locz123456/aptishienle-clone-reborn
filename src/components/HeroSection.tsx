@@ -18,7 +18,12 @@ const HeroSection = () => {
         <span 
           className="bg-main text-white rounded-full px-8 py-5 text-lg font-bold flex items-center justify-center shadow-lg shadow-black/30 cursor-pointer hover:shadow-black/40" 
           style={{ height: 'auto' }}
-          onClick={() => { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }}
+          onClick={() => { 
+            const element = document.getElementById('consultationBanner');
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
         >
           TƯ VẤN MIỄN PHÍ
         </span>

@@ -15,7 +15,7 @@ const images = [
 
 const ConsultationBanner = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center
+    <div id='consultationBanner' className="flex flex-col lg:flex-row justify-center items-center
     pt-4 pb-16 px-2 md:px-0">
       <div className="w-[400px] md:w-[450px] flex-shrink-0 flex justify-center">
         <Swiper
