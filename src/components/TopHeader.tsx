@@ -43,7 +43,7 @@ const TopHeader = () => {
           </button>
         </div>
         <div className="flex-grow flex justify-center lg:flex-grow-0 lg:justify-start">
-          <img src="https://cdn.tabtab.me/tabtab-dev/albums/7/images/6852de9531704.png" alt="Aptis Pro Logo" width={100} />
+          <img src="https://i.postimg.cc/26WzsXPb/Logo.png" alt="Aptis Pro Logo" width={100} />
         </div>
         <div className="lg:hidden w-8"></div>
         <div className="flex-grow max-w-xl hidden lg:block">

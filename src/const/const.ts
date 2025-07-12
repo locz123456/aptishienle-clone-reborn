@@ -125,7 +125,7 @@ export const pricingDataOne = [
         "✔️Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B2-C1 hiệu quả.",
         "✔️Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
         "✔️Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
-        "✔️Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "✔️Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
         "✔️Chấm và chữa bài kỹ lưỡng, kèm 1-1 tổng 5 kĩ năng với giảng viên và trợ giảng.",
         "✔️Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "✔️Giới hạn số lượng học viên dưới 10 bạn."
@@ -141,7 +141,7 @@ export const pricingDataOne = [
         "✔️Ôn tập chi tiết từng kĩ năng và đảm bảo đạt B2-C1 hiệu quả.",
         "✔️Test đầu vào để đánh giá trình độ học viên và cá nhân hóa lộ trình học phù hợp.",
         "✔️Test đầu ra để đánh giá sự tiến bộ của học viên và tư vấn lịch thi phù hợp.",
-        "✔️Ôn tập 4 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
+        "✔️Ôn tập 5 kỹ năng trọng tâm theo giáo trình độc quyền của Aptis Pro.",
         "✔️Chấm và chữa bài kỹ lưỡng, kèm 1-1 tổng 5 kĩ năng với giảng viên và trợ giảng.",
         "✔️Cấp tài khoản luyện đề thi trên web aptispro.vn giống thật 100%.",
         "✔️Giới hạn số lượng học viên dưới 10 bạn."
